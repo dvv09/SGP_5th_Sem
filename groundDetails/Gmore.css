@@ -1,0 +1,92 @@
+/* BookingTimeSlots.css */
+
+/* Container styles */
+.booking-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading styles */
+  .booking-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Label styles */
+  .booking-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  .booking-container input[type="date"],
+  .booking-container input[type="time"],
+  .booking-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Booking button styles */
+  .booking-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Slot list styles */
+  .booking-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-container li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-container li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Selected slot styles */
+  .booking-container li.selected {
+    background-color: #28a745;
+    color: #fff;
+    border-color: #28a745;
+  }
+  
+  /* Error message styles */
+  .booking-container .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  /* Booked slot styles */
+  .booking-container .booked-slot {
+    background-color: #d3d3d3;
+    color: #333;
+    font-weight: bold;
+  }
